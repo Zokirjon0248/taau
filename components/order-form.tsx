@@ -150,33 +150,7 @@ export function OrderForm() {
       />
 
       <div className="space-y-3 pt-4">
-        <Label className="text-sm font-medium text-gray-900   ">
-          Paketni tanlang <span className="text-red-500">*</span>
-        </Label>
-        <RadioGroup
-          defaultValue="10 kunlik"
-          value={formData.package}
-          onValueChange={(value) => setFormData({ ...formData, package: value })}
-          className="flex flex-col space-y-3"
-        >
-          <div className="flex items-center space-x-3 border-2 border-purple-200 rounded-lg p-4 hover:border-purple-300 transition-colors">
-            <RadioGroupItem value="10 kunlik" id="package-10" className="text-purple-600" />
-            <Label htmlFor="package-10" className="flex-1 cursor-pointer">
-              <div className="font-medium text-sm md:text-base">10 kunlik kurs</div>
-              <div className="text-sm text-gray-500">500,000 so'm</div>
-            </Label>
-          </div>
-          <div className="flex items-center space-x-3 border-2 border-purple-200 rounded-lg p-4 hover:border-purple-300 transition-colors">
-            <RadioGroupItem value="1 oylik" id="package-30" className="text-purple-600" />
-            <Label htmlFor="package-30" className="flex-1 cursor-pointer">
-              <div className="font-medium text-sm md:text-base">1 oylik kurs</div>
-              <div className="text-sm text-gray-500">700,000 so'm</div>
-            </Label>
-            <div className="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">
-              Eng yaxshi narx
-            </div>
-          </div>
-        </RadioGroup>
+        
       </div>
 
       <Button

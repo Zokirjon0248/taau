@@ -177,10 +177,6 @@ export default function Home() {
             </div>
 
             <div className="flex items-center space-x-2 md:space-x-4">
-              <div className="hidden lg:flex items-center space-x-2 text-gray-800">
-                <Phone className="h-4 w-4" />
-                <span className="font-medium">+998 95 809 90 32</span>
-              </div>
               <Button
                 onClick={() => scrollToSection("order")}
                 className="bg-purple-700 hover:bg-purple-800 text-white rounded-full px-3 py-2 md:px-6 md:py-3 text-sm md:text-base cursor-pointer"
@@ -418,57 +414,10 @@ export default function Home() {
                   kimyoviy qo'shimchalar yo'q.
                 </p>
 
-                <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-6 space-y-3 sm:space-y-0 mb-10 justify-center text-center sm:text-left">
-                  <div className="text-2xl sm:text-3xl font-bold text-purple-700">500,000 so'm</div>
-
-                  <div className="relative inline-block">
-                    <div className="text-lg sm:text-xl text-gray-500 line-through">600,000 so'm</div>
-                    <div className="absolute -top-3 left-1/2 -translate-x-1/4 bg-red-100 text-red-700 text-xs font-semibold px-2 py-0.5 rounded shadow">
-                      -17%
-                    </div>
-                  </div>
-                </div>
+              
 
 
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
-                  <div className="flex items-start space-x-3">
-                    <div className="bg-purple-100 rounded-full p-2 mt-1">
-                      <CheckCircle2 className="h-5 w-5 text-purple-700" />
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-gray-900 mb-1">10 kunlik kurs</h4>
-                      <p className="text-sm text-gray-700">500,000 so'm</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <div className="bg-purple-100 rounded-full p-2 mt-1">
-                      <CheckCircle2 className="h-5 w-5 text-purple-700" />
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-gray-900 mb-1">1 oylik kurs</h4>
-                      <p className="text-sm text-gray-700">700,000 so'm</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <div className="bg-purple-100 rounded-full p-2 mt-1">
-                      <CheckCircle2 className="h-5 w-5 text-purple-700" />
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-gray-900 mb-1">Yetkazib berish</h4>
-                      <p className="text-sm text-gray-700">Butun O'zbekiston bo'ylab</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <div className="bg-purple-100 rounded-full p-2 mt-1">
-                      <CheckCircle2 className="h-5 w-5 text-purple-700" />
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-gray-900 mb-1">15 kun ichida natija</h4>
-                      <p className="text-sm text-gray-700">Kafolatlangan ta'sir</p>
-                    </div>
-                  </div>
-                </div>
 
                 <Button
                   onClick={() => scrollToSection("order")}
@@ -827,26 +776,7 @@ export default function Home() {
                   Erkaklar kuchi va quvvatini oshirish uchun 100% tabiiy mahsulot. 7 ta tabiiy komponentdan iborat
                   maxsus formula.
                 </p>
-                <div className="flex space-x-4">
-                  <a
-                    href="https://t.me/taau_uz"
-                    className="bg-gray-800/30 hover:bg-gray-800/50 p-2 rounded-full transition-colors"
-                  >
-                    <Send className="h-5 w-5" />
-                  </a>
-                  <a
-                    href="https://instagram.com/taau.uz"
-                    className="bg-gray-800/30 hover:bg-gray-800/50 p-2 rounded-full transition-colors"
-                  >
-                    <Instagram className="h-5 w-5" />
-                  </a>
-                  <a
-                    href="tel:+998958099032"
-                    className="bg-gray-800/30 hover:bg-gray-800/50 p-2 rounded-full transition-colors"
-                  >
-                    <Phone className="h-5 w-5" />
-                  </a>
-                </div>
+              
               </div>
 
               <div>
@@ -879,9 +809,6 @@ export default function Home() {
                 <h5 className="text-white font-semibold mb-6">Ma'lumot</h5>
                 <ul className="space-y-3">
                   <li>
-                    <span className="text-gray-400">Narx: 500,000 - 700,000 so'm</span>
-                  </li>
-                  <li>
                     <span className="text-gray-400">Yetkazib berish: 30,000 so'm</span>
                   </li>
                   <li>
@@ -889,24 +816,6 @@ export default function Home() {
                   </li>
                   <li>
                     <span className="text-gray-400">Kafolat: 15 kun</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div>
-                <h5 className="text-white font-semibold mb-6">Bog'lanish</h5>
-                <ul className="space-y-4">
-                  <li className="flex items-start space-x-3">
-                    <Phone className="h-5 w-5 text-purple-400 flex-shrink-0 mt-0.5" />
-                    <span>+998 95 809 90 32</span>
-                  </li>
-                  <li className="flex items-start space-x-3">
-                    <Send className="h-5 w-5 text-purple-400 flex-shrink-0 mt-0.5" />
-                    <span>@taau_uz</span>
-                  </li>
-                  <li className="flex items-start space-x-3">
-                    <Instagram className="h-5 w-5 text-purple-400 flex-shrink-0 mt-0.5" />
-                    <span>taau.uz</span>
                   </li>
                 </ul>
               </div>
