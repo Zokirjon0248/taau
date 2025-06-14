@@ -387,19 +387,7 @@ export default function Home() {
                       className="w-full h-auto object-cover"
                     />
                   </div>
-                  <div className="absolute md:-bottom-8 md:-right-8 bottom-1/2 right-0 translate-y-1/2 md:translate-y-0 bg-white rounded-xl shadow-xl p-3 md:p-6 max-w-[200px] md:max-w-xs">
-                    <div className="flex items-center space-x-2 mb-3">
-                      <div className="flex">
-                        {[1, 2, 3, 4, 5].map((star) => (
-                          <Star key={star} className="h-4 w-4 text-amber-400 fill-amber-400" />
-                        ))}
-                      </div>
-                      <span className="text-sm font-medium text-gray-900">5.0 (200+ sharhlar)</span>
-                    </div>
-                    <p className="text-sm text-gray-700 italic">
-                      "15 kun ichida natija ko'rdim. Energiyam oshdi va jinsiy hayotim yaxshilandi!"
-                    </p>
-                  </div>
+                
                 </div>
               </div>
 
@@ -413,12 +401,6 @@ export default function Home() {
                   energiyasi va umumiy salomatligini oshirish uchun yaratilgan. Mahsulot 100% tabiiy bo'lib, tarkibida
                   kimyoviy qo'shimchalar yo'q.
                 </p>
-
-              
-
-
-
-
                 <Button
                   onClick={() => scrollToSection("order")}
                   className="bg-purple-700 hover:bg-purple-800 text-white rounded-full px-8 py-6 text-lg group cursor-pointer"
@@ -708,42 +690,8 @@ export default function Home() {
                 <div className="relative z-10">
                   <h3 className="text-xl md:text-3xl font-bold mb-4 md:mb-6">Buyurtma berish</h3>
                   <p className="text-purple-100 mb-6 md:mb-8 text-sm md:text-base">
-                    Formani to'ldiring va biz siz bilan tez orada bog'lanamiz. Mahsulotlarimiz haqida qo'shimcha
-                    savollaringiz bo'lsa, bizga qo'ng'iroq qiling.
+                    Quyidagi formani to'ldiring va bizning mutaxassislarimiz siz bilan imkon qadar tezroq bog'lanishadi.
                   </p>
-
-                  <div className="space-y-4 md:space-y-6">
-                    <div className="flex items-center space-x-3 md:space-x-4">
-                      <div className="bg-purple-600/50 rounded-full p-2 md:p-3">
-                        <Phone className="h-4 w-4 md:h-6 md:w-6" />
-                      </div>
-                      <div>
-                        <p className="text-xs md:text-sm text-purple-200">Telefon</p>
-                        <p className="font-medium text-sm md:text-base">+998 95 809 90 32</p>
-                      </div>
-                    </div>
-
-                    <div className="flex items-center space-x-3 md:space-x-4">
-                      <div className="bg-purple-600/50 rounded-full p-2 md:p-3">
-                        <Send className="h-4 w-4 md:h-6 md:w-6" />
-                      </div>
-                      <div>
-                        <p className="text-xs md:text-sm text-purple-200">Telegram</p>
-                        <p className="font-medium text-sm md:text-base">@taau_uz</p>
-                      </div>
-                    </div>
-
-                    <div className="flex items-center space-x-3 md:space-x-4">
-                      <div className="bg-purple-600/50 rounded-full p-2 md:p-3">
-                        <Instagram className="h-4 w-4 md:h-6 md:w-6" />
-                      </div>
-                      <div>
-                        <p className="text-xs md:text-sm text-purple-200">Instagram</p>
-                        <p className="font-medium text-sm md:text-base">taau.uz</p>
-                      </div>
-                    </div>
-                  </div>
-
                   <div className="mt-6 md:mt-8 p-3 md:p-4 bg-purple-600/30 rounded-lg">
                     <p className="text-xs md:text-sm text-purple-100 mb-2">⚡ Maxsus taklif:</p>
                     <p className="font-medium text-sm md:text-base">
